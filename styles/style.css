@@ -1,5 +1,5 @@
-
-h1,p{
+h1,
+p {
   margin: 0;
 }
 
@@ -42,7 +42,6 @@ h1,p{
   list-style-type: none;
   display: flex;
   column-gap: 20px;
-  
 }
 
 .nav__link {
@@ -72,11 +71,10 @@ h1,p{
   max-width: 515px;
 }
 
-
 .header__image {
   max-width: 636px;
   height: auto;
- }
+}
 
 .header__footer {
   margin-top: auto;
@@ -123,7 +121,7 @@ h1,p{
 
 /* adicionar a regra CSS para sua nova classe aqui. Certifique-se de colocar antes de .card: os pais devem preceder seus filhos */
 
-.staff__cards{
+.staff__cards {
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -132,8 +130,6 @@ h1,p{
   list-style-type: none;
   padding-left: 0;
   gap: 20px;
-
-
 }
 
 .card {
@@ -152,7 +148,6 @@ h1,p{
   height: 100%;
   display: flex;
   flex-direction: column;
-
 }
 
 .card__title {
@@ -176,3 +171,136 @@ h1,p{
   margin-top: auto;
 }
 
+.events {
+  padding: 100px 0 120px 80px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+.events__content {
+  flex-basis: 580px;
+}
+
+.events__heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__title {
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+  margin: 32px 0 0;
+}
+
+.events__info-section {
+  margin-top: 32px;
+}
+
+.event-info__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.event-info__icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+.event-info__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__description {
+  margin: 40px 0 60px;
+}
+
+.events__more {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.events__cover {
+  flex-grow: 1;
+  flex-shrink: 0;
+  max-width: 780px;
+  flex-basis: 780px;
+  position: relative;
+}
+
+.events__image {
+  max-width: 100%;
+}
+
+.person {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.person_name_feynman {
+  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+  top: -30px;
+  left: 319px;
+}
+
+.person_name_burbidge {
+  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+  top: 96px;
+  right: 125px;
+}
+
+.person_name_cannon {
+  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+  bottom: 18px;
+  right: 216px;
+}
+
+.person_name_mitchell {
+  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+  bottom: 82px;
+  left: 142px;
+}
+
+.person_name_tarter {
+  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+  top: 79px;
+  left: 159px;
+}
+
+.person__image {
+  max-width: 100%;
+}
+
+.person__image_size_l {
+  width: 140px;
+}
+
+.person__image_size_m {
+  width: 100px;
+}
+
+.person__image_size_s {
+  width: 80px;
+}
+
+.person__caption {
+  text-align: center;
+  font-size: 14px;
+  margin: 0;
+}
